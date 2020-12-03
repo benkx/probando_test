@@ -13,11 +13,11 @@ class TestCalculadora:
 
     def test_resta(self):
         calculadora = Calculadora()
-        assert 2 == calculadora.restar(70, 40)
+        assert 2 == calculadora.restar(4, 2)
 
     def test_multiplicacion(self):
         calculadora = Calculadora()
-        assert 15 == calculadora.multiplicar(4, 5)
+        assert 15 == calculadora.multiplicar(3, 5)
 
     def test_division(self):
         calculadora = Calculadora()
