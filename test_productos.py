@@ -4,9 +4,10 @@ from productos import Prodcutos
 class TestProductos(unittest.TestCase):
 
     def test_nombre(self):
-        producto = Prodcutos()
-        assert  producto.nombreProducto("Manzana", 12)
+       
+       #producto = Prodcutos()
+       #self.assertEqual producto.nombreProducto("Manzana", 12)
         
         
-        #products = Prodcutos("Manzana", 12)
-        #self.assertEqual(products.name, "Manzana")
+        products = Prodcutos()
+        self.assertEqual(products.name, "Manzana")
