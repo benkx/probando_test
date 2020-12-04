@@ -7,7 +7,7 @@ def implemetacion(context, nombre):
     context.name = nombre
    
 @when('se lista los productos')
-def implementacion(context):
+def implementacion(context, nombre):
      context.name = nombre
 
 @then('el {precio} del producto es correcto')
