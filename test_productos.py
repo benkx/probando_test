@@ -5,8 +5,10 @@ class TestProductos(unittest.TestCase):
 
     def test_nombre(self):
         
-        self.nombre = Productos("Panela", 9)
-
+      #  self.nombre = Productos("Panela", 9)
+        
+        productos = Productos()
+        assert productos.nombreProducto("Manzana", 12)
        #producto = Prodcutos()
        #self.assertEqual producto.nombreProducto("Manzana", 12)
         
