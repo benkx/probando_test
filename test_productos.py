@@ -9,5 +9,5 @@ class TestProductos(unittest.TestCase):
        #self.assertEqual producto.nombreProducto("Manzana", 12)
         
         
-        products = Productos()
-        self.assertEqual(products.nombreProducto, "Manzana")
+        products = Productos("Manzana")
+        self.assertEqual(products, "Manzana")
