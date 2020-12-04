@@ -12,4 +12,6 @@ def implementacion(context):
 
 @then('el {precio} del producto es correcto')
 def implementacion(context, precio):
-    assert context.list == precio
+    context.list = context.productos.listarPrecio(context.price)
+    
+    #assert context.list == precio

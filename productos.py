@@ -7,3 +7,7 @@ class Productos:
     
     def listarNombre(self, name):
         return name
+    
+    def listarPrecio(self, price):
+        return price
+
