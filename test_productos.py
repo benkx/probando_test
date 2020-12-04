@@ -5,7 +5,7 @@ class TestProductos(unittest.TestCase):
 
     def test_nombre(self):
         producto = Prodcutos()
-        assert 2 == producto.nombreProducto("Manzana", 12)
+        assert  producto.nombreProducto("Manzana", 12)
         
         
         #products = Prodcutos("Manzana", 12)
