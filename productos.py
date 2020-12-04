@@ -3,5 +3,4 @@ class Productos:
         self.name = name
         self.price = price
     
-    def __str__(self):
-        return self.name
+  
