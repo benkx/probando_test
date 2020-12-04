@@ -5,4 +5,5 @@ class Productos:
         self.name = name
         self.price = price
     
-   
+    def listarNombre(self, name):
+        return name
