@@ -1,9 +1,9 @@
 from behave import *
 from productos import *
 
-@given('{nombre}  para listar los productos')
+@given('{nombre} para listar los productos')
 def implemetacion(context, nombre):
-    context.productos = Prodcutos()
+    context.productos = Productos()
     context.name = nombre
    
 @when('se lista los productos')
