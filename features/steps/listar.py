@@ -10,8 +10,8 @@ def implemetacion(context, nombre):
 def implementacion(context):
     context.list = context.productos.listarNombre(context.name)
 
-@then('el {precio} del producto es correcto')
-def implementacion(context, precio):
+@then('el precio del producto es correcto')
+def implementacion(context):
     context.list = context.productos.listarPrecio(context.price)
     
     #assert context.list == precio
