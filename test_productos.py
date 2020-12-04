@@ -1,5 +1,5 @@
 import unittest
-from productos import Prodcutos
+from productos import Productos
 
 class TestProductos(unittest.TestCase):
 
@@ -9,5 +9,5 @@ class TestProductos(unittest.TestCase):
        #self.assertEqual producto.nombreProducto("Manzana", 12)
         
         
-        products = Prodcutos()
-        self.assertEqual(products.name, "Manzana")
+        products = Productos()
+        self.assertEqual(products.nombreProducto, "Manzana")
