@@ -12,6 +12,6 @@ class TestProductos(unittest.TestCase):
        #producto = Prodcutos()
        #self.assertEqual producto.nombreProducto("Manzana", 12)
         
-        
-        #products = Productos("Manzana")
-        #self.assertEqual(products, "Manzana")
+    def test_precio(self):   
+        productos = Productos()
+        assert  5 == productos.listarPrecio(5)
